@@ -10,7 +10,7 @@ test('calculateChange(215, 300) should return [50, 20, 10, 5]', function(t) {
 })
 
 test('calculateChange(12, 42) should return [20, 10]', function(t) {
-	var actual = calculators.calculateChange(12, 42); 
+	var actual = calculators.calculateChange(12, 42);
 	var expected = [20, 10];
 
 	t.deepEqual(actual, expected);
@@ -18,7 +18,7 @@ test('calculateChange(12, 42) should return [20, 10]', function(t) {
 })
 
 test('calculateChange(470, 675) should return [200, 5]', function(t) {
-	var actual = calculators.calculateChange(470, 675); 
+	var actual = calculators.calculateChange(470, 675);
 	var expected = [200, 5];
 
 	t.deepEqual(actual, expected);
