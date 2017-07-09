@@ -1,0 +1,55 @@
+.photo {
+  display: block;
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.gallery {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+@media screen and (min-width:600px) {
+  .gallery {
+    font-size: 0;
+  }
+  .gallery .photo {
+    display: inline-block;
+    width: 50%;
+  }
+  .gallery .quarters .photo {
+    width: 25%;
+  }
+}
+
+
+/*
+
+.photo {
+  display: block;
+  margin: 0 auto;
+  max-width: 600px;
+  text-align: center;
+}
+
+.gallery {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+
+@media screen and (min-width: 600px) {
+
+  .gallery {
+    font-size: 0;
+  }
+
+  .gallery .photo {
+  display: inline-block;
+  width: 50%;
+  }
+
+  .gallery.quarters .photo {
+    width: 25%;
+  }
