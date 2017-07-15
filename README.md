@@ -8,4 +8,8 @@ This is a reference repository to save all my solutions to workshops and challen
 + CSS Gallery
 
 ### Week 2
-+ TDD
++ TDD (change calculator)
++ Pure functions
++ DOM manipulation
++ Romaniser (TDD)
++ Traffic lights (callbacks)
